@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.126 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.461 s <<< FAILURE! - in TestSuite
+test4(org.loginPage.DemoTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.loginPage.DemoTest.test4(DemoTest.java:25)
+

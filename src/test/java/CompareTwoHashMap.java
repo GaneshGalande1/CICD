@@ -1,3 +1,5 @@
+import org.testng.Assert;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -13,7 +15,8 @@ public class CompareTwoHashMap {
 		    HashMap<Integer,String> hm1= new HashMap<>();
 		    hm1.put(11,"Ganesh");
 		    hm1.put(12,"Mahesh");
-		    
+
+			Assert.assertTrue(hm.equals(hm1));
 		    //HashMap<Integer,String> result= new HashMap<>();
 		    
 		    
